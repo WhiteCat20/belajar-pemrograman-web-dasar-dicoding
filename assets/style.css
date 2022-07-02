@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@media (max-width: 1178px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    aside {
+        margin: auto;
+        align-items: center;
+    }
+}
+
+body {
+    background-color: rgb(109, 236, 185);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .navbar {
+    margin-bottom: 3rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #3FC5F0;
+}
+
+header .title {
+    color: rgb(238, 245, 178);
+    margin-left: 20px;
+    padding-top: 24px;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+    color: rgb(238, 245, 178);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    nav ul {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.container {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main {
+    margin-bottom: 2rem;
+}
+
+.main-article {
+    margin-left: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 1rem;
+}
+
+header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+article {
+    box-sizing: border-box;
+    font-weight: 600;
+    width: 973px;
+    font-size: 24px;
+    text-align: justify;
+    display: contents;
+}
+
+article a {
+    color: #3FC5F0;
+    text-decoration: none;
+}
+
+article a::after {
+    text-decoration: none;
+}
+
+.article {
+    margin-left: 40px;
+    width: 90%;
+}
+
+.button-alat {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button-alat button {
+    width: 139px;
+    height: 54px;
+    background-color: rgb(63, 197, 240);
+    border: none;
+    border-radius: 12px;
+    margin: 0 50px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width: 819px) {
+    .button-alat button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center!important;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+aside {
+    background-color: white;
+    width: 307px;
+    height: 380px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.biodata {
+    text-align: center;
+}
+
+.biodata .nama {
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+.biodata .nomor-line {
+    font-weight: 600;
+    margin: 0;
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(63, 197, 240);
+}
+
+footer h2 {
+    text-align: center;
+    color: rgb(238, 245, 178);
+    font-weight: 400;
+}
+
+.modalbg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.activate-bg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-blender {
+    text-align: center;
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative
+}
+
+.modal-blender img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.modalbg1 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.activate-bg1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-hairdryer {
+    text-align: center;
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative
+}
+
+.modal-hairdryer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.modalbg2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.modal-pencukur {
+    text-align: center;
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative
+}
+
+.modal-pencukur img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.close-modal {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
+
+.close-modal1 {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
+
+.activate-bg2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-modal2 {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
