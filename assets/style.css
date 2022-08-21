@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(109, 236, 185);
+    background-color: #fef9c3;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,13 +20,14 @@ header .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
-    background-color: #3FC5F0;
+    background-color: #ef4444;
 }
 
 header .title {
-    color: rgb(238, 245, 178);
+    color: white;
     margin-left: 20px;
-    padding-top: 24px;
+    padding-top: 15px;
+    font-size: 40px;
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav ul {
 
 nav ul li {
     margin: 0 20px;
-    color: rgb(238, 245, 178);
+    color: white;
     font-size: 25px;
     cursor: pointer;
 }
@@ -103,16 +104,16 @@ article a::after {
     width: 90%;
 }
 
-.button-alat {
+.button-arc {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.button-alat button {
+.button-arc button {
     width: 139px;
     height: 54px;
-    background-color: rgb(63, 197, 240);
+    background-color: #ef4444;
     border: none;
     border-radius: 12px;
     margin: 0 50px;
@@ -123,7 +124,7 @@ article a::after {
 }
 
 @media (max-width: 819px) {
-    .button-alat button {
+    .button-arc button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,12 +169,12 @@ aside img {
 
 footer {
     padding: 10px;
-    background-color: rgb(63, 197, 240);
+    background-color: #ef4444;
 }
 
 footer h2 {
     text-align: center;
-    color: rgb(238, 245, 178);
+    color: white;
     font-weight: 400;
 }
 
@@ -211,7 +212,7 @@ footer h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .modalbg1 {
@@ -248,7 +249,7 @@ footer h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .modalbg2 {
@@ -280,7 +281,7 @@ footer h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 80%;
 }
 
 .close-modal {
